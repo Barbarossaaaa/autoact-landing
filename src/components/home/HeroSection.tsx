@@ -12,13 +12,13 @@ export const HeroSection = () => {
             </div>
             {/* Hero Text */}
             <div className="z-50 w-full h-full flex items-center justify-center px-[16px] sm:px-0">
-                <div className="w-full text-white font-inter font-medium text-[40px] flex flex-col gap-y-[8px] sm:w-[320px] sm:text-[50px] md:text-[55px] md:w-[360px] lg:text-[79.79px] lg:w-[530px] lg:gap-y-[12px] xl:text-[97px] xl:gap-y-[4px] xl:w-[640px] mac:w-[640px]">
-                    <h2 className="leading-[110%]">AI Agents</h2>
+                <div className="w-full text-white font-inter font-medium text-[40px] flex flex-col gap-y-[8px] sm:w-[380px] sm:text-[50px] md:text-[55px] md:w-[420px] lg:text-[79.79px] lg:w-[600px] lg:gap-y-[12px] xl:text-[97px] xl:w-[720px]">
+                    <h2 className="leading-[110%]">AI AGENTS</h2>
                     <h2 className="ml-[40px] leading-[110%] sm:ml-0 sm:text-right">
-                        For Your
+                        FOR YOUR
                     </h2>
-                    <h2 className="leading-[90%] sm:ml-[40px] lg:ml-[72px] mac:ml-[80px]">
-                        Browser
+                    <h2 className="leading-[90%] sm:ml-[48px] lg:ml-[72px] mac:ml-[80px]">
+                        BROWSER
                     </h2>
                     <a
                         href="https://app.kleo.network"

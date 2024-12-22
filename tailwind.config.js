@@ -6,6 +6,9 @@ export default {
             screens: {
                 mac: '1440px',
             },
+            fontFamily: {
+                inter: ['inter', 'sans-serif'],
+            },
         },
     },
     plugins: [],
