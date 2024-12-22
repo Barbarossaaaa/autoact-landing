@@ -8,6 +8,8 @@ export default {
             },
             fontFamily: {
                 inter: ['inter', 'sans-serif'],
+                roboto: ['Roboto', 'sans-serif'],
+                nokora: ['Nokora', 'sans-serif'],
             },
         },
     },

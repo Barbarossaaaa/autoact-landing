@@ -12,7 +12,7 @@ export const HeroSection = () => {
             </div>
             {/* Hero Text */}
             <div className="z-50 w-full h-full flex items-center justify-center px-[16px] sm:px-0">
-                <div className="w-full text-white font-inter font-medium text-[40px] flex flex-col gap-y-[8px] sm:w-[380px] sm:text-[50px] md:text-[55px] md:w-[420px] lg:text-[79.79px] lg:w-[600px] lg:gap-y-[12px] xl:text-[97px] xl:w-[720px]">
+                <div className="w-full text-white font-inter font-medium text-[40px] flex flex-col gap-y-[8px] sm:w-[380px] sm:text-[50px] md:text-[55px] md:w-[420px] lg:text-[79.79px] lg:w-[600px] lg:gap-y-[12px] xl:text-[97px] xl:w-[720px] xl:gap-y-[16px]">
                     <h2 className="leading-[110%]">AI AGENTS</h2>
                     <h2 className="ml-[40px] leading-[110%] sm:ml-0 sm:text-right">
                         FOR YOUR
