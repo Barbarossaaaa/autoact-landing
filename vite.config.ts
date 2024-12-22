@@ -1,36 +1,14 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import svgr from 'vite-plugin-svgr'
+import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite';
+import svgr from 'vite-plugin-svgr';
 
+// https://vite.dev/config/
 export default defineConfig({
-  base: '/',
-  plugins: [react(), svgr()],
-  resolve: {
-    alias: {
-      '!rawloader!': ''
-    }
-  }
-  // build: {
-  //   assetsInlineLimit: 1000000,
-  //   assetsInclude: ['**/*.svg'],
-  //   commonjsOptions: {
-  //     include: []
-  //   }
-  //   // rollupOptions: {
-  //   //   plugins: [rollupNodePolyFill()]
-  //   // }
-  // }
-  // optimizeDeps: {
-  //   disabled: false,
-  //   esbuildOptions: {
-  //     // Enable esbuild polyfill plugins
-  //     plugins: [
-  //       NodeGlobalsPolyfillPlugin({
-  //         process: true,
-  //         buffer: true
-  //       }),
-  //       NodeModulesPolyfillPlugin()
-  //     ]
-  //   }
-  // }
-})
+    base: '/',
+    plugins: [react(), svgr()],
+    resolve: {
+        alias: {
+            '!rawloader!': '',
+        },
+    },
+});
