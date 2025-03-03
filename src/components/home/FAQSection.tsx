@@ -4,26 +4,33 @@ import PlusIconPath from '../../assets/images/home/faq/plus.svg';
 
 const faqs = [
     {
-        question: 'Does KLEO collect and store my browsing history?',
-        answer: 'No, Kleo encrypts and stores your browsing history on Decentralised Storage. Our Smart Contracts ensure that only the DAO proposed scripts or you can access your data. ',
+        question: 'Does AutoAct store my personal information?',
+        answer: 'No, AutoAct is designed with your privacy in mind. All your information is stored locally in your browser and never sent to our servers. This means your data remains completely under your control, but also that you will lose your saved data if you uninstall the extension. We recommend exporting your private key from the settings page as a backup if you plan to reinstall.',
     },
     {
-        question: 'What is Kleo DATA DAO? How can I participate?',
-        answer: 'Kleo DATA DAO is a community driven collective which decides how user owned data is to be utlised. The aim is to drive benefits for the community. Install Extension, Join our discord, and check out Snapshot Voting Processes.',
+        question: 'What LLMs does AutoAct use?',
+        answer: 'AutoAct intelligently switches between Gemini and Claude APIs based on the complexity of the form-filling task. Our proprietary routing model automatically determines which AI is best suited for each specific form, ensuring optimal accuracy and performance without you having to choose manually. We continuously evaluate and may add new models as the AI landscape evolves.',
     },
     {
-        question: 'What is Proof Of Contribution Algorithm?',
-        answer: 'Kleo has an algorithm known as Proof of Contribution which decides the value of an individual user data to the entire DATA DAO. This algorithm is how our users are awarded!',
+        question: 'How much does it cost?',
+        answer: 'AutoAct operates on a pay-as-you-go model with no subscription required. Each form completion costs only $0.05 USD, and we\'re happy to offer your first 10 forms completely free! This pricing model ensures you only pay for what you actually use. Our currency converter in the wallet section shows exactly what this means in your local currency.',
     },
     {
-        question: 'How frequently are users awarded Kleo Points?',
-        answer: 'Users are awarded Kleo Points every 15 days, these can be claimed anytime user wants. We intend to start distributing rewards from End of Ocotober 2024.',
+        question: 'How do I add funds to my account?',
+        answer: 'Adding funds is simple: just click on the wallet section in the extension and select "Top Up." We support multiple payment methods including credit/debit cards, PayPal, and major cryptocurrencies (Bitcoin, Ethereum, and USDC). Funds are added instantly, and there\'s no minimum deposit requirement. For business users, we also offer invoice-based payment options.',
     },
     {
-        question:
-            'Is KLEO a paid service, or is there a free version available?',
-        answer: 'Kleo is free to use for our users who want to protect their privacy and do not want it to be used as part of DATA DAO. It is user owned data. ',
+        question: 'I lost my account, can I recover my funds?',
+        answer: 'Your account recovery depends on your private key, which is viewable in the settings page. This key is critical for accessing your funds if you switch browsers or devices. We strongly recommend saving this key in a secure password manager or writing it down and storing it safely. With your private key, you can recover your account and remaining balance at any time. Without it, unfortunately, we cannot restore access to your funds due to our privacy-first design.',
     },
+    {
+        question: 'Is AutoAct compatible with all websites and forms?',
+        answer: 'AutoAct works with most standard web forms including contact forms, registration pages, applications, and surveys. We\'re continuously expanding compatibility, but some highly specialized or security-protected forms may have limitations. Our technology adapts to most form structures, but if you encounter an incompatible form, please report it through the feedback option and we\'ll prioritize adding support.',
+    },
+    {
+        question: 'How accurate is AutoAct at filling forms?',
+        answer: 'AutoAct achieves over 95% accuracy across standard forms. The extension analyzes both form fields and surrounding context to understand exactly what information is needed. You\'ll always have a chance to review and edit before submission. Our system also learns from common corrections to continuously improve accuracy. For specialized industry forms, you can save custom templates to further enhance precision.',
+    }
 ];
 
 const FAQSection: React.FC = () => {

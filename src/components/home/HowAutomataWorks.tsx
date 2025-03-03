@@ -34,9 +34,7 @@ const HowAutomataWorks: React.FC = () => {
                                     Add to AutoAct
                                 </div>
                                 <div className="font-nokora font-normal text-[11px] md:text-sm xl:text-base xl:leading-[30.6px] 2xl:text-lg text-white">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
+                                Select the text on any webpage, and add to autoact button pops up right beside upon selection! 
                                 </div>
                             </div>
                         </div>
@@ -53,9 +51,7 @@ const HowAutomataWorks: React.FC = () => {
                                     Save to AutoAct
                                 </div>
                                 <div className="font-nokora font-normal text-[11px] md:text-sm xl:text-base xl:leading-[30.6px] 2xl:text-lg text-gray-800">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
+                                    This will open up the AutoAct sidebar in your browser, save this information to provide contexts for form filling.
                                 </div>
                             </div>
                         </div>
@@ -72,9 +68,7 @@ const HowAutomataWorks: React.FC = () => {
                                     Magically Fill Forms
                                 </div>
                                 <div className="font-nokora font-normal text-[11px] md:text-sm xl:text-base xl:leading-[30.6px] 2xl:text-lg text-gray-800">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
+                                    On any page that has forms, our magic button will be visible and allow you to fill forms "automagically"!
                                 </div>
                             </div>
                         </div>
