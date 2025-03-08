@@ -13,7 +13,7 @@ const faqs = [
     },
     {
         question: 'How much does it cost?',
-        answer: 'AutoAct operates on a pay-as-you-go model with no subscription required. Each form completion costs only $0.05 USD, and we\'re happy to offer your first 10 forms completely free! This pricing model ensures you only pay for what you actually use. Our currency converter in the wallet section shows exactly what this means in your local currency.',
+        answer: "AutoAct operates on a pay-as-you-go model with no subscription required. Each form completion costs only $0.05 USD, and we're happy to offer your first 10 forms completely free! This pricing model ensures you only pay for what you actually use. Our currency converter in the wallet section shows exactly what this means in your local currency.",
     },
     {
         question: 'How do I add funds to my account?',
@@ -25,12 +25,12 @@ const faqs = [
     },
     {
         question: 'Is AutoAct compatible with all websites and forms?',
-        answer: 'AutoAct works with most standard web forms including contact forms, registration pages, applications, and surveys. We\'re continuously expanding compatibility, but some highly specialized or security-protected forms may have limitations. Our technology adapts to most form structures, but if you encounter an incompatible form, please report it through the feedback option and we\'ll prioritize adding support.',
+        answer: "AutoAct works with most standard web forms including contact forms, registration pages, applications, and surveys. We're continuously expanding compatibility, but some highly specialized or security-protected forms may have limitations. Our technology adapts to most form structures, but if you encounter an incompatible form, please report it through the feedback option and we'll prioritize adding support.",
     },
     {
         question: 'How accurate is AutoAct at filling forms?',
-        answer: 'AutoAct achieves over 95% accuracy across standard forms. The extension analyzes both form fields and surrounding context to understand exactly what information is needed. You\'ll always have a chance to review and edit before submission. Our system also learns from common corrections to continuously improve accuracy. For specialized industry forms, you can save custom templates to further enhance precision.',
-    }
+        answer: "AutoAct achieves over 95% accuracy across standard forms. The extension analyzes both form fields and surrounding context to understand exactly what information is needed. You'll always have a chance to review and edit before submission. Our system also learns from common corrections to continuously improve accuracy. For specialized industry forms, you can save custom templates to further enhance precision.",
+    },
 ];
 
 const FAQSection: React.FC = () => {
@@ -66,7 +66,7 @@ const FAQSection: React.FC = () => {
                                         <div
                                             className={`font-medium text-sm md:text-base lg:text-2xl xl:text-xl 2xl:text-[24px] ${
                                                 openIndex === index
-                                                    ? 'text-primary-600'
+                                                    ? 'text-blue-600'
                                                     : 'text-black'
                                             }`}
                                         >
@@ -84,7 +84,7 @@ const FAQSection: React.FC = () => {
                                                     ? 'Minus Icon'
                                                     : 'Plus Icon'
                                             }
-                                            className="w-5 h-5 text-primary-600"
+                                            className="w-5 h-5 text-blue-600"
                                         />
                                     </button>
 

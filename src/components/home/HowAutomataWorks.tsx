@@ -29,12 +29,14 @@ const HowAutomataWorks: React.FC = () => {
                                 className="w-[35%] lg:w-1/2"
                             />
                             {/* Text */}
-                            <div className="selection:bg-white selection:text-primary-600 flex flex-col justify-start items-center text-center gap-2 lg:gap-4 xl:gap-[12px] mac:gap-[14px] 2xl:gap-4">
+                            <div className="selection:bg-white selection:text-blue-600 flex flex-col justify-start items-center text-center gap-2 lg:gap-4 xl:gap-[12px] mac:gap-[14px] 2xl:gap-4">
                                 <div className="font-semibold text-lg md:text-2xl 2xl:text-[32px]">
                                     Add to AutoAct
                                 </div>
                                 <div className="font-nokora font-normal text-[11px] md:text-sm xl:text-base xl:leading-[30.6px] 2xl:text-lg text-white">
-                                Select the text on any webpage, and add to autoact button pops up right beside upon selection! 
+                                    Select the text on any webpage, and add to
+                                    autoact button pops up right beside upon
+                                    selection!
                                 </div>
                             </div>
                         </div>
@@ -51,7 +53,9 @@ const HowAutomataWorks: React.FC = () => {
                                     Save to AutoAct
                                 </div>
                                 <div className="font-nokora font-normal text-[11px] md:text-sm xl:text-base xl:leading-[30.6px] 2xl:text-lg text-gray-800">
-                                    This will open up the AutoAct sidebar in your browser, save this information to provide contexts for form filling.
+                                    This will open up the AutoAct sidebar in
+                                    your browser, save this information to
+                                    provide contexts for form filling.
                                 </div>
                             </div>
                         </div>
@@ -68,7 +72,9 @@ const HowAutomataWorks: React.FC = () => {
                                     Magically Fill Forms
                                 </div>
                                 <div className="font-nokora font-normal text-[11px] md:text-sm xl:text-base xl:leading-[30.6px] 2xl:text-lg text-gray-800">
-                                    On any page that has forms, our magic button will be visible and allow you to fill forms "automagically"!
+                                    On any page that has forms, our magic button
+                                    will be visible and allow you to fill forms
+                                    "automagically"!
                                 </div>
                             </div>
                         </div>

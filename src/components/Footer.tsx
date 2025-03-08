@@ -80,19 +80,19 @@ const Footer: React.FC = () => {
                         {/* Social Media Links */}
                         {/* All rights reserved */}
                         <div className="flex items-start w-full border-t border-[#D5D9EB] pt-2 font-roboto font-normal text-sm leading-[1.7] xl:py-[12px] mac:py-[14px] 2xl:py-[18px]">
-                            All rights reserved. www.autoact.network
+                            All rights reserved. autoact.io
                         </div>
                     </div>
                 </div>
                 {/* Join Discord Card */}
-                <div className="max-w-[328px] sm:max-w-[440px] md:max-w-[488px] lg:max-w-[704px] xl:max-w-[980px] mac:max-w-[1140px] 2xl:max-w-[1520px] absolute -top-[90px] sm:-top-[70px] md:-top-[105px] xl:-top-[120px] mac:-top-[130px] w-full text-white bg-primary-600 rounded-lg md:rounded-[32px] xl:rounded-[16px] mac:rounded-[18px] 2xl:rounded-[24px] overflow-hidden">
+                <div className="max-w-[328px] sm:max-w-[440px] md:max-w-[488px] lg:max-w-[704px] xl:max-w-[980px] mac:max-w-[1140px] 2xl:max-w-[1520px] absolute -top-[90px] sm:-top-[70px] md:-top-[105px] xl:-top-[120px] mac:-top-[130px] w-full text-white bg-blue-600 rounded-lg md:rounded-[32px] xl:rounded-[16px] mac:rounded-[18px] 2xl:rounded-[24px] overflow-hidden">
                     <div className="absolute top-0 left-0 w-full h-full">
                         <img
                             src={JoinDiscordBackground}
                             className="w-full h-full object-cover"
                         />
                     </div>
-                    <div className="selection:bg-white selection:text-purple-600 flex flex-col items-center xl:items-start xl:text-left xl:max-w-[500px] mac:max-w-[560px] 2xl:max-w-[745px] text-center gap-4 2xl:gap-6 py-6 px-4 md:p-8 xl:py-[40px] xl:px-[56px] mac:p-[60px] 2xl:p-[80px] relative">
+                    <div className="selection:bg-white selection:text-blue-600 flex flex-col items-center xl:items-start xl:text-left xl:max-w-[500px] mac:max-w-[560px] 2xl:max-w-[745px] text-center gap-4 2xl:gap-6 py-6 px-4 md:p-8 xl:py-[40px] xl:px-[56px] mac:p-[60px] 2xl:p-[80px] relative">
                         {/* Text */}
                         <div className="flex flex-col gap-1 md:gap-4 xl:gap-[12px] mac:gap-4 w-full leading-[1.3]">
                             <div className="font-semibold text-2xl md:text-[32px] lg:text-[40px] xl:text-[38px] mac:text-[44px]">
