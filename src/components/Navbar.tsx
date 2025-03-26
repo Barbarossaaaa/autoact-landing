@@ -72,7 +72,7 @@ const Navbar = () => {
                     to="https://www.app.kleo.network"
                     target="_blank"
                 >
-                    Free Trial
+                   App
                 </Link>
             </div>
 
@@ -104,7 +104,7 @@ const Navbar = () => {
                     to="https://www.app.kleo.network"
                     target="_blank"
                 >
-                    Free Trial
+                    App
                 </Link>
             </div>
         </nav>

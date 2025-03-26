@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
     const { pathname } = location;
 
     return (
-        <div className="w-full mt-[150px] md:mt-[185px] lg:mt-[212px] xl:mt-[170px] mac:mt-[250px] 2xl:mt-[435px]">
+        <div className="w-full mt-[100px] md:mt-[120px] lg:mt-[150px] xl:mt-[140px] mac:mt-[170px] 2xl:mt-[200px]">
             {/* Footer section */}
             <section className="w-full flex justify-center items-start bg-gray-blue-100 rounded-t-3xl sm:rounded-t-[32px] md:rounded-t-[40px] 2xl:rounded-t-[50px] p-4 pt-[116px] md:pt-[124px] lg:pt-[132px] xl:pt-[160px] relative bg-[#EAECF5]">
                 <div className="w-[328px] sm:w-[440px] md:w-[488px] lg:w-[704px] xl:w-[980px] mac:w-[1140px] 2xl:w-[1520px] relative">
@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
                     </div>
                 </div>
                 {/* Join Discord Card */}
-                <div className="max-w-[328px] sm:max-w-[440px] md:max-w-[488px] lg:max-w-[704px] xl:max-w-[980px] mac:max-w-[1140px] 2xl:max-w-[1520px] absolute -top-[90px] sm:-top-[70px] md:-top-[105px] xl:-top-[120px] mac:-top-[130px] w-full text-white bg-blue-600 rounded-lg md:rounded-[32px] xl:rounded-[16px] mac:rounded-[18px] 2xl:rounded-[24px] overflow-hidden">
+                <div className="max-w-[328px] sm:max-w-[440px] md:max-w-[488px] lg:max-w-[704px] xl:max-w-[980px] mac:max-w-[1140px] 2xl:max-w-[1520px] absolute -top-[120px] sm:-top-[130px] md:-top-[140px] lg:-top-[160px] xl:-top-[170px] mac:-top-[180px] 2xl:-top-[200px] w-full text-white bg-blue-600 rounded-lg md:rounded-[32px] xl:rounded-[16px] mac:rounded-[18px] 2xl:rounded-[24px] overflow-hidden">
                     <div className="absolute top-0 left-0 w-full h-full">
                         <img
                             src={JoinDiscordBackground}

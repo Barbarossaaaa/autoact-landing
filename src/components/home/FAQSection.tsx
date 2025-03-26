@@ -43,7 +43,7 @@ const FAQSection: React.FC = () => {
     };
 
     return (
-        <div className="mt-[60px] sm:mt-[80px] lg:mt-[100px] mac:mt-[120px] 2xl:mt-[150px]">
+        <div className="mt-[60px] sm:mt-[80px] lg:mt-[100px] mac:mt-[120px] 2xl:mt-[150px] mb-[40px] sm:mb-[50px] md:mb-[60px] lg:mb-[80px] xl:mb-[100px] 2xl:mb-[120px]">
             <section className="w-full flex justify-center">
                 <div className="max-w-[328px] sm:max-w-[440px] md:max-w-[488px] lg:max-w-[704px] xl:min-w-[980px] mac:min-w-[1140px] 2xl:min-w-[1520px]">
                     <div className="flex flex-col w-full items-center gap-6 lg:gap-10 xl:flex-row xl:items-start mac:justify-between">
