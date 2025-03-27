@@ -4,32 +4,32 @@ import PlusIconPath from '../../assets/images/home/faq/plus.svg';
 
 const faqs = [
     {
-        question: 'Does AutoAct store my personal information?',
-        answer: 'No, AutoAct is designed with your privacy in mind. All your information is stored locally in your browser and never sent to our servers. This means your data remains completely under your control, but also that you will lose your saved data if you uninstall the extension. We recommend exporting your private key from the settings page as a backup if you plan to reinstall.',
+        question: 'What are AI agents in AutoAct?',
+        answer: 'AI agents in AutoAct are NFT-based autonomous programs that can perform specific actions through Model Context Protocols (MCPs). Each agent is uniquely owned as an NFT and can be customized with various prompt workflows to automate tasks reliably while maintaining privacy and security through our Trusted Execution Environment.',
     },
     {
-        question: 'What LLMs does AutoAct use?',
-        answer: 'AutoAct intelligently switches between Gemini and Claude APIs based on the complexity of the form-filling task. Our proprietary routing model automatically determines which AI is best suited for each specific form, ensuring optimal accuracy and performance without you having to choose manually. We continuously evaluate and may add new models as the AI landscape evolves.',
+        question: 'How does AutoAct ensure privacy and security?',
+        answer: 'AutoAct ensures privacy and security by loading context protocols as NFTs on a Trusted Execution Environment (TEE) enclave. This tamper-proof environment guarantees that your agent\'s actions and data remain private, while still maintaining transparency in how the agent operates. This approach solves the common privacy concerns associated with traditional AI agent implementations.',
     },
     {
-        question: 'How much does it cost?',
-        answer: "AutoAct operates on a pay-as-you-go model with no subscription required. Each form completion costs only $0.05 USD, and we're happy to offer your first 10 forms completely free! This pricing model ensures you only pay for what you actually use. Our currency converter in the wallet section shows exactly what this means in your local currency.",
+        question: 'What are Model Context Protocols (MCPs)?',
+        answer: 'Model Context Protocols (MCPs) are the core technology behind AutoAct that allow AI agents to connect to various tools and services. MCPs define how your agent interacts with different systems, giving you full authority over its actions. These protocols enable complex workflows while maintaining security, and you can choose which tools your AI agent connects to through our marketplace.',
     },
     {
-        question: 'How do I add funds to my account?',
-        answer: 'Adding funds is simple: just click on the wallet section in the extension and select "Top Up." We support multiple payment methods including credit/debit cards, PayPal, and major cryptocurrencies (Bitcoin, Ethereum, and USDC). Funds are added instantly, and there\'s no minimum deposit requirement. For business users, we also offer invoice-based payment options.',
+        question: 'How can I earn passive income with AutoAct?',
+        answer: 'AutoAct allows you to share your custom prompts and workflows with other users through our marketplace. When others use your workflows, you earn passive income. This creates an ecosystem where AI enthusiasts and experts can monetize their expertise, while others benefit from proven, reliable automation templates.',
     },
     {
-        question: 'I lost my account, can I recover my funds?',
-        answer: 'Your account recovery depends on your private key, which is viewable in the settings page. This key is critical for accessing your funds if you switch browsers or devices. We strongly recommend saving this key in a secure password manager or writing it down and storing it safely. With your private key, you can recover your account and remaining balance at any time. Without it, unfortunately, we cannot restore access to your funds due to our privacy-first design.',
+        question: 'Who are AutoAct\'s partners?',
+        answer: 'AutoAct is currently working with several key partners in the AI and blockchain space, including Olas, VANA, Camp Network, and Polygon. These partnerships strengthen our technology stack and help expand the capabilities of our AI agent ecosystem, particularly in areas of decentralized AI, identity solutions, and scalable blockchain infrastructure.',
     },
     {
-        question: 'Is AutoAct compatible with all websites and forms?',
-        answer: "AutoAct works with most standard web forms including contact forms, registration pages, applications, and surveys. We're continuously expanding compatibility, but some highly specialized or security-protected forms may have limitations. Our technology adapts to most form structures, but if you encounter an incompatible form, please report it through the feedback option and we'll prioritize adding support.",
+        question: 'What makes AutoAct different from other AI platforms?',
+        answer: 'AutoAct stands out through its unique combination of NFT ownership for AI agents, Trusted Execution Environments for privacy, and Model Context Protocols for versatile functionality. Unlike traditional AI services, AutoAct gives users true ownership and control over their AI agents, while enabling them to benefit financially from sharing successful workflows. Our focus on both privacy and interoperability solves critical problems in current AI implementations.',
     },
     {
-        question: 'How accurate is AutoAct at filling forms?',
-        answer: "AutoAct achieves over 95% accuracy across standard forms. The extension analyzes both form fields and surrounding context to understand exactly what information is needed. You'll always have a chance to review and edit before submission. Our system also learns from common corrections to continuously improve accuracy. For specialized industry forms, you can save custom templates to further enhance precision.",
+        question: 'How do I get started with creating my own AI agent?',
+        answer: 'Getting started with AutoAct is simple: create an account, mint your first AI agent as an NFT, then select or build Model Context Protocols to define its capabilities. You can either create custom workflows from scratch or use templates from our marketplace. Once configured, your agent can start performing automated tasks with the security of our Trusted Execution Environment, and you can share your workflows to generate passive income.',
     },
 ];
 

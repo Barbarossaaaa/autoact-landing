@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
                                 </span>
                             </div>
                             <div className="font-roboto font-normal text-base mac:text-[18px] 2xl:text-[24px]">
-                                Kleo Network is a user owned data DAO.
+                            Automate workflows and Earn from your prompts
                             </div>
                         </div>
                         {/* Contact Number and Email */}
